@@ -6,7 +6,7 @@ WelcomeTerminal is a simple tool to make your terminal more appealing and welcom
 - `mv ./WelcomeTerminal ./.WelcomeTerminal` to make it hidden (won't work if name does not start with a dot)
 - Edit your `.bashrc` file so tbat it execute `~/.WelcomeTerminal/a.out $USERNAME` to have it launch every time you open a terminal
 
-# Addibg Art
+# Adding Art
 In `.WelcomeTerminal/arts` 
 - Create a new file `art_x` where x is the number of the art, start with 0 and add 1 for each art you add
 - Paste your ascii in `art_x`
