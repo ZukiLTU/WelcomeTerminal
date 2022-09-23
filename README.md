@@ -1,5 +1,5 @@
 # WelcomeTerminal
-WelcomeTerminal is a simple tool to make your terminal more appealing and welcoming by displaying a welcome message alongside a ascii art randomly choosen from a list you've made
+WelcomeTerminal is a simple tool to make your terminal more appealing and welcoming by displaying a welcome message alongside a ascii art randomly choosen from a list of your choice
 
 # Installation
 - `$ git clone https://github.com/KoraKu/WelcomeTerminal` into your home directory
@@ -41,9 +41,9 @@ $ chmod 777 a.out
 - Compiled with GCC
 - Good ASCII-Art website https://www.asciiart.eu/
 - Feel free to edit `greeting` to customize how the terminal greets you
-- You can also edit the string at line 63 in `printf()` in WelcomeTerminal.c  (more advanced
+- You can also edit the string at line 63 in `printf()` in WelcomeTerminal.c  (more advanced)
   + Make sure to recompile with `gcc WelcomeTerminal.c` or with your favorite compiler
   + Make sure `\033[1m\033[4;%sm%s\033[0m` is still present as this is the part that actually displays the name of the art
 
-- Future update will make installtion easier
-- As always, made with <3
+- Future update will make installation easier
+- As always, made with 💓
