@@ -32,7 +32,8 @@ In `.WelcomeTerminal/arts`
 # Information
 - Compiled with GCC
 - Good ASCII-Art website https://www.asciiart.eu/
-- Feel free to edit `greeting` and the string at line 63 in `printf()` in WelcomeTerminal.c to customize how the terminal greets you 
+- Feel free to edit `greeting`
+- You can also edit the string at line 63 in `printf()` in WelcomeTerminal.c to customize how the terminal greets you (more advanced)
   + Make sure to recompile with `gcc WelcomeTerminal.c` or with your favorite compiler
   + Make sure `\033[1m\033[4;%sm%s\033[0m` is still present as this is the part that actually displays the name of the art
 - As always, made with <3
