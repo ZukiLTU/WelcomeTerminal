@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -e "Hello \033[31m$USERNAME\033[0m ! \nWelcome to the \033[1m\033[31mT \033[32mE \033[33mR \033[34mM \033[31mI \033[32mN \033[33mA \033[34mL \033[0m\n"
