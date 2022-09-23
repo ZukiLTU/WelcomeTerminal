@@ -2,8 +2,8 @@
 WelcomeTerminal is a simple tool to make your terminal more appealing and welcoming by displaying a welcome message alongside a ascii art randomly choosen from a list you've made
 
 # Installation
-- `git clone` into your home directory
-- `mv ./WelcomeTerminal ./.WelcomeTerminal` to make it hidden (won't work if name does not start with a dot)
+- `$ git clone` into your home directory
+- `$ mv ./WelcomeTerminal ./.WelcomeTerminal` to make it hidden (won't work if name does not start with a dot)
 - Edit your `.bashrc` file so tbat it execute `~/.WelcomeTerminal/a.out $USERNAME` to have it launch every time you open a terminal
 
 # Adding Art
@@ -28,6 +28,13 @@ In `.WelcomeTerminal/arts`
 |   37   |       White      |
 
 - Lastly increment the character in `arts/count` to take changes into account
+
+# Issues
+- You may need to add execute permission to `greeting` and `a.out` using `chmod`
+```
+$ chmod 777 greeting
+$ chmod 777 a.out
+```
 
 # Information
 - Compiled with GCC
