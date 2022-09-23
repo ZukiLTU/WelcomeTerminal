@@ -2,7 +2,7 @@
 WelcomeTerminal is a simple tool to make your terminal more appealing and welcoming by displaying a welcome message alongside a ascii art randomly choosen from a list you've made
 
 # Installation
-- `$ git clone` into your home directory
+- `$ git clone https://github.com/KoraKu/WelcomeTerminal` into your home directory
 - `$ mv ./WelcomeTerminal ./.WelcomeTerminal` to make it hidden (won't work if name does not start with a dot)
 - Edit your `.bashrc` file in your home directory and add `~/.WelcomeTerminal/a.out $USERNAME`at the end to have it launch every time you open a terminal
 
