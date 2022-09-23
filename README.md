@@ -31,6 +31,7 @@ In `.WelcomeTerminal/arts`
 
 # Issues
 - You may need to add execute permission to `greeting` and `a.out` using `chmod`
+In `.WelcomeTerminal`:
 ```
 $ chmod 777 greeting
 $ chmod 777 a.out
@@ -43,4 +44,6 @@ $ chmod 777 a.out
 - You can also edit the string at line 63 in `printf()` in WelcomeTerminal.c  (more advanced
   + Make sure to recompile with `gcc WelcomeTerminal.c` or with your favorite compiler
   + Make sure `\033[1m\033[4;%sm%s\033[0m` is still present as this is the part that actually displays the name of the art
+
+- Future update will make installtion easier
 - As always, made with <3
