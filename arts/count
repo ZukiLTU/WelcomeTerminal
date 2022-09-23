@@ -1,0 +1,9 @@
+ 
+Open an ascii table and go to the 32nd entry (space character) which the program will interpret as 1 (offset -31 to make it easier to compute).
+To increment art number, go up in the ascii table
+32 space  1 art
+33 !      2 arts
+34 "      3 arts
+35 #      4 arts
+36 $      5 arts
+...
