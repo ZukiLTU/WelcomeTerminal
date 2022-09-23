@@ -11,7 +11,7 @@ In `.WelcomeTerminal/arts`
 - Create a new file `art_x` where x is the number of the art, start with 0 and add 1 for each art you add
 - Paste your ascii in `art_x`
 - Create a new file `art_x_name` (where x is the same number as in previous step) 
-- Write the name of your art (be aware that the program will display using this format "Here's a \<nameOfArt\> to make you happy" in `art_x_name`
+- Write the name of your art (be aware that the program will display using this format `Here's a <nameOfArt> to make you happy` in `art_x_name`
 - On a new line in `art_x_name`, write the number corresponding to the color you want your art to be
 
 ### A list of color usable by the linux terminal
