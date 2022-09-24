@@ -1,12 +1,12 @@
 # WelcomeTerminal
-WelcomeTerminal is a simple tool to make your terminal more appealing and welcoming by displaying a welcome message alongside a ascii art randomly choosen from a list of your choice
+WelcomeTerminal is a simple tool to make your terminal more appealing and welcoming by displaying a welcome message alongside a ASCII-Art randomly choosen from a list of your choice
 
 # Installation
 - `$ git clone https://github.com/KoraKu/WelcomeTerminal` into your home directory
 - `$ mv ./WelcomeTerminal ./.WelcomeTerminal` to make it hidden (won't work if name does not start with a dot)
 - `$ make install`
 
-# Adding art
+# Adding Art
 In `.WelcomeTerminal/arts` 
 - Create a new file `art_x` where x is the number of the art, start with 0 and add 1 for each art you add
 - Paste your ascii in `art_x`
@@ -33,7 +33,7 @@ In `.WelcomeTerminal/arts`
 - If you do not use bash as you default shell, be sure the edit your shell file 
   + bash -> ~/.bashrc 
   + zsh -> ~/.zshrc
-  + ...
+  + \<someShell\> -> ~/.\<someShell\>rc (mostlikly this format)
 # Information
 - Compiled with GCC by default
 - Good ASCII-Art website https://www.asciiart.eu/
