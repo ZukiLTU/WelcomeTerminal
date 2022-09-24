@@ -4,9 +4,9 @@ WelcomeTerminal is a simple tool to make your terminal more appealing and welcom
 # Installation
 - `$ git clone https://github.com/KoraKu/WelcomeTerminal` into your home directory
 - `$ mv ./WelcomeTerminal ./.WelcomeTerminal` to make it hidden (won't work if name does not start with a dot)
-- Edit your `.bashrc` file in your home directory and add `~/.WelcomeTerminal/a.out $USERNAME`at the end to have it launch every time you open a terminal
+- `$ make install`
 
-# Adding Art
+# Adding art
 In `.WelcomeTerminal/arts` 
 - Create a new file `art_x` where x is the number of the art, start with 0 and add 1 for each art you add
 - Paste your ascii in `art_x`
@@ -30,20 +30,15 @@ In `.WelcomeTerminal/arts`
 - Lastly increment the character in `arts/count` to take changes into account
 
 # Issues
-- You may need to add execute permission to `greeting` and `a.out` using `chmod`
-In `.WelcomeTerminal`:
-```
-$ chmod 777 greeting
-$ chmod 777 a.out
-```
-
+- If you do not use bash as you default shell, be sure the edit your shell file 
+- bash -> ~/.bashrc 
+- zsh -> ~/.zshrc
+- ...
 # Information
-- Compiled with GCC
+- Compiled with GCC by default
 - Good ASCII-Art website https://www.asciiart.eu/
 - Feel free to edit `greeting` to customize how the terminal greets you
 - You can also edit the string at line 63 in `printf()` in WelcomeTerminal.c  (more advanced)
   + Make sure to recompile with `gcc WelcomeTerminal.c` or with your favorite compiler
   + Make sure `\033[1m\033[4;%sm%s\033[0m` is still present as this is the part that actually displays the name of the art
-
-- Future update will make installation easier
 - As always, made with 💓
