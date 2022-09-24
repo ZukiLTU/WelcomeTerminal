@@ -33,7 +33,7 @@ In `.WelcomeTerminal/arts`
 - If you do not use bash as you default shell, be sure the edit your shell file 
   + bash -> ~/.bashrc 
   + zsh -> ~/.zshrc
-- ...
+  + ...
 # Information
 - Compiled with GCC by default
 - Good ASCII-Art website https://www.asciiart.eu/
