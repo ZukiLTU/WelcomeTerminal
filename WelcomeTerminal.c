@@ -10,6 +10,8 @@ int main(int argc, char *argv[]) {
     srand(time(0));
 
     char basepath[50];
+    string homedir = getenv("HOME");
+    string cmd = homedir + "WelcomeTerminal/greeting";
 
     strcpy(basepath, "/home/");
     strcat(basepath, argv[1]); 
@@ -28,7 +30,7 @@ int main(int argc, char *argv[]) {
     //printf("artc : %d\nselected : %d \n", artc, selected);
 
     /*Now display the greeting message.*/
-    system("/home/hugo/.WelcomeTerminal/greeting");
+    system(cmd.c_str());
 
     /*getting the good file for the art*/
     char buffer[5];
